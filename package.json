@@ -1,0 +1,29 @@
+{
+  "name": "green-superagent-use",
+  "version": "1.0.0",
+  "description": "this is a package for node, web, react-native etc. use es6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MingYe-dz/green-superagent-use"
+  },
+  "keywords": [
+    "superagent",
+    "use",
+    "global",
+    "plugins",
+    "selectable",
+  ],
+  "author": "MingYe-dz",
+  "license": "ISC",
+  "homepage": "https://github.com/MingYe-dz/green-superagent-use.git",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "object-assign": "~4.0.1",
+    "superagent": "~2.0.0"
+  }
+}
