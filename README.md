@@ -6,11 +6,12 @@ The diff is SuperagentUse assigned the superagent, so you need import it anyWher
 SuperagentGlobal , you just do 'SuperagentGlobal.use' like  SuperagentUse. but no need to import it anyWhere.
 just import the orginal superagent package.
 
-(forked to koenpunt/superagent-use.)
+(forked from koenpunt/superagent-use.)
 
 ## Summary
 
 Instead of manually calling `use()` for every request, `use()` is called automatically for every request.
+Better is you can use it for react-native.
 
 ## Example
 
@@ -33,6 +34,10 @@ request
   });
 
 
+
+
+
+
 import { SuperagentGlobal } from 'green-superagent-use';
 import { request } from 'superagent';
 
@@ -46,7 +51,7 @@ function errorInterceptor(req) {
             break;
         }
       });
-
+}
 SuperagentGlobal.use(errorInterceptor);
 
 request
@@ -58,6 +63,3 @@ request
   .end(function(err, res) {
     //
   });
-
-
-    }
